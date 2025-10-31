@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inclusive Web Reader</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Inclusive Web Reader</h1>
+    <div id="aiStatus" class="status">Checking built-in AI status...</div>
+    <div class="feature" id="summarize">
+      <button id="summarizeBtn" aria-label="Summarize the current page">Summarize Page</button>
+      <div id="summaryOutput" class="output" aria-live="polite"></div>
+    </div>
+    <div class="feature" id="translate">
+      <label for="translateLang">Translate to:</label>
+      <select id="translateLang" aria-label="Select language for translation">
+        <option value="es">Spanish</option>
+        <option value="fr">French</option>
+        <option value="de">German</option>
+        <option value="zh">Chinese</option>
+      </select>
+      <button id="translateBtn" aria-label="Translate selected text">Translate Selected Text</button>
+      <div id="translateOutput" class="output" aria-live="polite"></div>
+    </div>
+    <div class="feature" id="simplify">
+      <button id="simplifyBtn" aria-label="Simplify selected text">Simplify Selected Text</button>
+      <div id="simplifyOutput" class="output" aria-live="polite"></div>
+    </div>
+    <div class="feature" id="proofread">
+      <button id="proofreadBtn" aria-label="Proofread selected text">Proofread Selected Text</button>
+      <div id="proofreadOutput" class="output" aria-live="polite"></div>
+    </div>
+    <div class="settings">
+      <label for="language">Preferred Language:</label>
+      <input type="text" id="language" placeholder="en">
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

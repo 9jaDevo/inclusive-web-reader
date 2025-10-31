@@ -134,13 +134,13 @@ AI-generated descriptions of images using the **Prompt API**
 ### Chrome AI APIs Integrated
 This extension showcases **5 different Chrome Built-in AI APIs**:
 
-| API | Purpose | Implementation |
-|-----|---------|----------------|
-| **Summarizer** | Extract key points | `type: 'key-points'` |
-| **Translator** | Cross-language translation | 20+ languages supported |
-| **Rewriter** | Text simplification | `tone: 'more-casual', length: 'shorter'` |
-| **Proofreader** | Grammar correction | `outputLanguage: 'en'` |
-| **Prompt** | Multimodal image analysis | Planned feature |
+| API             | Purpose                    | Implementation                           |
+| --------------- | -------------------------- | ---------------------------------------- |
+| **Summarizer**  | Extract key points         | `type: 'key-points'`                     |
+| **Translator**  | Cross-language translation | 20+ languages supported                  |
+| **Rewriter**    | Text simplification        | `tone: 'more-casual', length: 'shorter'` |
+| **Proofreader** | Grammar correction         | `outputLanguage: 'en'`                   |
+| **Prompt**      | Multimodal image analysis  | Planned feature                          |
 
 ### Architecture
 - **Manifest V3** for modern Chrome extensions

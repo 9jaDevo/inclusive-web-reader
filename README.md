@@ -1,6 +1,6 @@
 # 🌐 Inclusive Web Reader
 
-[![Chrome Extension](https://img.shields.io/badge/Chrome-Extension-4285F4?logo=googlechrome&logoColor=white)](https://github.com/yourusername/inclusive-web-reader)
+[![Chrome Extension](https://img.shields.io/badge/Chrome-Extension-4285F4?logo=googlechrome&logoColor=white)](https://github.com/9jadevo/inclusive-web-reader)
 [![Built with Chrome AI](https://img.shields.io/badge/Built%20with-Chrome%20AI-34A853)](https://developer.chrome.com/docs/ai)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
